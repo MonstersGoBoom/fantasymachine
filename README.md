@@ -20,11 +20,11 @@ eg.
 
 Featuring a none traditional display. there is no framebuffer nor traditional tilemaps. 
 
-the display is made from moveable objects. these can be thought of as tilemaps with freedom to position anywhere on screen at any size. 
+The display is made from moveable objects. these can be thought of as tilemaps with freedom to position anywhere on screen at any size. 
 
-each "object" is made up of 8x8 cells. and can be displayed at any pixel position on screen. 
+Where each "object" is made up of 8x8 cells. and can be displayed at any pixel position on screen. 
 
-this is essentially a hybrid between traditional tilemaps and traditional sprites
+This is essentially a hybrid between traditional tilemaps and traditional sprites
 
 ```
 +------+
