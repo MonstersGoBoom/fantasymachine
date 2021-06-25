@@ -1,9 +1,63 @@
 # fantasymachine
 Thoughts and emulator for fantasy 8 bit machine 
 
-# Cells 
+# Control 
+
+Access | Address | System | Description
+--- | --- | --- | ---
+R/W | $FFE0 | VIDEO | address of CELL definition data 
+R/W | $FFE2 | VIDEO | address of color definition data 
+R/W | $FFE4 | VIDEO | address of OBJECT MEMORY 
+
+
+# CELL 
 
 Cells are 8x8 pixels in 3 bits per pixel. enabling 8 colors per cell.
+
+```
+Plane 0 
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+Plane 1 
+00000000
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+Plane 2 
+00000000
+00001111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+```
+combined to 
+```
+11111111
+22226666
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+```
+
+
+
+
 
 # Colors 
 
