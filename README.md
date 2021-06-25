@@ -26,6 +26,10 @@ Where each "object" is made up of 8x8 cells. and can be displayed at any pixel p
 
 This is essentially a hybrid between traditional tilemaps and traditional sprites
 
+Objects can be flipped in the X or Y direction as a global object. Individual CELLS inside an Object can be flipped also via the attribute data.
+
+
+MAP data
 ```
 +------+
 |ABCDEF|
@@ -34,6 +38,12 @@ This is essentially a hybrid between traditional tilemaps and traditional sprite
 +------+
 ```
 
+ATTRIBUTE data 
+
+If enabled can control individual CELLS palette of 32 palettes and X or Y Flipped.
+
+
+OBJECT data
 ```
 ; pixels
   WORD xpos 
